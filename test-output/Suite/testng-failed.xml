@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="pass" value="siva08091990"/>
+  <parameter name="user" value="sivag918@gmail.com"/>
+  <test name="Test(failed)">
+    <parameter name="pass" value="siva08091990"/>
+    <parameter name="user" value="sivag918@gmail.com"/>
+    <classes>
+      <class name="org.test1.Gmail">
+        <methods>
+          <include name="launch"/>
+          <include name="kill"/>
+          <include name="Test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.test1.Gmail -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
